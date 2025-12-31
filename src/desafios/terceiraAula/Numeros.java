@@ -25,7 +25,7 @@ public class Numeros
         }
 
         /* Peça ao usuário para inserir dois números inteiros. Compara os números e imprima uma
-        * mensagem indicando se são iguais, diferentes e qual dos dois é o maior */
+         mensagem indicando se são iguais, diferentes e qual dos dois é o maior */
         System.out.println("*******************************");
         System.out.println("**   Comparador de números   **");
         System.out.println("*******************************");
@@ -46,6 +46,20 @@ public class Numeros
         else
         {
             System.out.println("Os números são diferentes. O primeiro número é maior do que o segundo.");
+        }
+
+        /* Crie um programa que solicite ao usuário a entrada de um número inteiro.
+           Verifique se o número é par ou ímpar e exiba uma mensagem correspondente */
+        System.out.println("\nDigite um número inteiro de novo 😄:");
+        int terceiroNumero = numero.nextInt();
+
+        if (terceiroNumero % 2 == 0)
+        {
+            System.out.println("O número que você digitou é par.");
+        }
+        else
+        {
+            System.out.println("O número que você digitou é ímpar.");
         }
 
         numero.close();
